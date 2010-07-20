@@ -4,7 +4,7 @@ Capistrano Handbook
 ## Index
 
 * [Simple. The Way it Should Be](simple_the_way_it_should_be)
-* [Building Blocks Variables & Tasks](building_blocks_varaibles_and_tasks)
+* [Building Blocks Variables & Tasks](building_blocks_variables_and_tasks)
   * [Tasks](building_blocks_varaibles_and_tasks/tasks)
   * [Variables](building_blocks_varaibles_and_tasks/variables)
 * [Local Vs. Remote Tasks](/local_vs_remote_tasks)
@@ -359,7 +359,7 @@ If your roll-back logic was any more complicated than that, you may consider inc
 
 #### Variables
 
-Capistrano has its own variable mechanism built in, you will not in the default `deploy.rb` that `capify` generates most of the variable assignment is done in the following manner:
+Capistrano has its own variable mechanism built in; you will note in the default `deploy.rb` that `capify` generates most of the variable assignment is done in the following manner:
 
     set :foo, 'bar'
 
